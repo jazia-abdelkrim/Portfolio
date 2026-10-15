@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b19b8" />
+    <title>Jazia Abdelkrim – Ethical AI & User-Centered UI</title>
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <script>document.documentElement.classList.add("js");</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;600&display=swap"
+            rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="nav">
+    <nav aria-label="Primary">
+        <ul>
+            <li><a href="#about" aria-current="page">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#values">Values</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <span class="nav-progress" aria-hidden="true"></span>
+</header>
+
+<main class="hero">
+    <div class="hero-grid" aria-hidden="true">
+        <span class="sq sq--gray"  style="--c:2;  --r:0"></span>
+        <span class="sq sq--black" style="--c:0;  --r:1"></span>
+        <span class="sq sq--blue"  style="--c:1;  --r:2"></span>
+
+        <span class="sq sq--gray"  style="--c:16; --r:6"></span>
+        <span class="sq sq--black" style="--c:15; --r:7"></span>
+        <span class="sq sq--blue"  style="--c:19; --r:6"></span>
+    </div>
+
+    <div id="about">
+        <div class="hero-content">
+            <p class="name">Jazia ABDELKRIM</p>
+
+            <h1>
+                <span>Builds Ethical AI,</span>
+                <span>Designs User-Centered UI!</span>
+            </h1>
+
+            <ul class="tags">
+                <li>AI Modeling</li>
+                <li class="star" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 0C13 7 17 11 24 12 17 13 13 17 12 24 11 17 7 13 0 12 7 11 11 7 12 0Z"/></svg>
+                </li>
+                <li>AI Ethics</li>
+                <li class="star" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 0C13 7 17 11 24 12 17 13 13 17 12 24 11 17 7 13 0 12 7 11 11 7 12 0Z"/></svg>
+                </li>
+                <li>User Experience</li>
+            </ul>
+        </div>
+
+        <section class="trusted" aria-labelledby="trusted-title">
+            <div class="trusted-inner">
+                <p class="trusted-label" id="trusted-title">Trusted by</p>
+                <div class="trusted-logos">
+                    <div class="trusted-track">
+                        <div class="trusted-group">
+                            <img src="assets/logos/company-1.png" alt="Quizzito Startup">
+                            <img src="assets/logos/company-2.png" alt="Company Two logo">
+                            <img src="assets/logos/company-3.png" alt="Company Three logo">
+                            <img src="assets/logos/company-4.png" alt="Company Four logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="section-head">
+            <h2 id="experience-title">Experience</h2>
+            <p>Where I've applied AI modeling, ethics and UX in real projects.</p>
+        </div>
+
+        <ul class="cards">
+            <li>
+                <article class="card">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--blue" aria-hidden="true"></span>
+                        <time class="card-period">2026</time>
+                    </div>
+                    <h3>AI/ML Engineering Intern</h3>
+                    <p class="card-org">KABAS AI</p>
+                    <p class="card-text">
+                        Built and evaluated classification models in industrial data, documented their limits,
+                        and added fairness checks before each release.
+                    </p>
+                    <ul class="card-tags">
+                        <li>Python</li>
+                        <li>Preprocessing</li>
+                        <li>Model evaluation</li>
+                    </ul>
+                </article>
+            </li>
+
+            <li>
+                <article class="card">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--black" aria-hidden="true"></span>
+                        <time class="card-period">2024-Now</time>
+                    </div>
+                    <h3>UX/UI Designer</h3>
+                    <p class="card-org">Freelance</p>
+                    <p class="card-text">
+                        Designed and tested interfaces for small teams, from user research
+                        to Figma prototypes handed off to developers.
+                    </p>
+                    <ul class="card-tags">
+                        <li>Figma</li>
+                        <li>User research</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </article>
+            </li>
+
+            <li>
+                <article class="card">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--gray" aria-hidden="true"></span>
+                        <time class="card-period">2024-Now</time>
+                    </div>
+                    <h3>AI Student</h3>
+                    <p class="card-org">ENSTA Algiers</p>
+                    <p class="card-text">
+                        Studied the multiple topics related to AI & how to build the future of the field ethically.
+                    </p>
+                    <ul class="card-tags">
+                        <li>Machine Learning</li>
+                        <li>AI Ethics</li>
+                        <li>CS Fundamentals</li>
+                    </ul>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===== Projects ===== (placeholder content: replace titles, dates, texts and photos) -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-head">
+            <h2 id="projects-title">Projects</h2>
+            <p>A selection of things I've built and designed.</p>
+        </div>
+
+        <ul class="cards">
+            <li>
+                <article class="card card--project">
+                    <figure class="project-media">
+                        <img src="assets/projects/project-1.png" loading="lazy">
+                    </figure>
+                    <div class="project-body">
+                        <div class="card-top">
+                            <span class="card-mark card-mark--blue" aria-hidden="true"></span>
+                            <time class="card-period">2026</time>
+                        </div>
+                        <h3>Quality Control ML Model</h3>
+                        <p class="card-text">The model in based on the uci-secom semiconductor manufacturing data, so it classifies the pieces based on the data generated from sensors to decide whether the piece can pass.</p>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="card card--project">
+                    <figure class="project-media">
+                        <img src="assets/projects/project-2.png" loading="lazy">
+                    </figure>
+                    <div class="project-body">
+                        <div class="card-top">
+                            <span class="card-mark card-mark--black" aria-hidden="true"></span>
+                            <time class="card-period">2026</time>
+                        </div>
+                        <h3>Website Redesign</h3>
+                        <p class="card-text">The website can conduct the decision of the user, so Tengalous Academy collaborate with me to redesign their website.</p>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="card card--project">
+                    <figure class="project-media">
+                        <img src="assets/projects/project-3.png" loading="lazy">
+                    </figure>
+                    <div class="project-body">
+                        <div class="card-top">
+                            <span class="card-mark card-mark--gray" aria-hidden="true"></span>
+                            <time class="card-period">2025</time>
+                        </div>
+                        <h3>Vironova</h3>
+                        <p class="card-text">It's an AR App for Apple Vision Pro Headset to discover the space. This project was a part of a designthon challenge in UI/UX.</p>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section" id="values" aria-labelledby="values-title">
+        <div class="section-head">
+            <h2 id="values-title">Values</h2>
+            <p>What guides the way I build and design.</p>
+        </div>
+
+        <ul class="cards">
+            <li>
+                <article class="card card--value">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--blue" aria-hidden="true"></span>
+                    </div>
+                    <h3>Islamic Values</h3>
+                    <p class="card-text">
+                        I believe that any work or technology should be aligned to the Islamic values & must not contain haram or illegal assets or activities.
+                    </p>
+                </article>
+            </li>
+            <li>
+                <article class="card card--value">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--gray" aria-hidden="true"></span>
+                    </div>
+                    <h3>Transparency</h3>
+                    <p class="card-text">
+                        A model should be able to explain itself. I document the data, the
+                        limits and the trade-offs so people know what a system can and can't do.
+                    </p>
+                </article>
+            </li>
+
+            <li>
+                <article class="card card--value">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--black" aria-hidden="true"></span>
+                    </div>
+                    <h3>People first</h3>
+                    <p class="card-text">
+                        Good AI and good UX start with the person using them. I test with real
+                        users and design for clarity and accessibility.
+                    </p>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="section-head">
+            <h2 id="contact-title">Contact</h2>
+            <p>Want to work together or talk about AI, ethics or design? Get in touch.</p>
+        </div>
+
+        <ul class="cards">
+            <li>
+                <a class="card card--link" href="mailto:aj.abdelkrim@ensta.edu.dz">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--gray" aria-hidden="true"></span>
+                    </div>
+                    <h3>Email</h3>
+                    <p class="card-org">aj.abdelkrim@ensta.edu.dz</p>
+                    <p class="card-text">The best way to reach me for projects and collaborations.</p>
+                    <span class="card-action">Send an email</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="card card--link" href="https://www.linkedin.com/in/j-abdelkrim/?isSelfProfile=true" target="_blank" rel="noopener">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--blue" aria-hidden="true"></span>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p class="card-org">linkedin.com/in/j-abdelkrim</p>
+                    <p class="card-text">See my background and connect with me.</p>
+                    <span class="card-action">Open profile</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="card card--link" href="https://github.com/jazia-abdelkrim" target="_blank" rel="noopener">
+                    <div class="card-top">
+                        <span class="card-mark card-mark--black" aria-hidden="true"></span>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p class="card-org">github.com/jazia-abdelkrim</p>
+                    <p class="card-text">Browse my code and AI projects.</p>
+                    <span class="card-action">See projects</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© <span id="year">2026</span> Jazia ABDELKRIM</p>
+</footer>
+</body>
+</html>
