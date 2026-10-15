@@ -6,6 +6,7 @@
 Personal portfolio of **Jazia ABDELKRIM**, AI engineering student and UX/UI designer. It presents my experience, projects, values and contact links in a single page, built with plain HTML, CSS and JavaScript (no frameworks, no build step).
 
 **Live site:** https://jazia-abdelkrim.github.io/Portfolio/
+**Github repository:** https://github.com/jazia-abdelkrim/Portfolio.git
 
 ---
 
